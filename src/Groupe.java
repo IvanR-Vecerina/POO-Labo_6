@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Group {
-    int     number;
-    int     trimester;
-    String  Orientation;
+public class Groupe {
+    private int numero;
+    private int trismestre;
+    private String orientation;
 
-    ArrayList<Lesson> lessons;
+    ArrayList<Lecon> lecons;
 
     public String horaire(){
         return "";
@@ -19,7 +19,7 @@ public class Group {
         return 0;
     }
 
-    public void definirLecon(Lesson args){
+    public void definirLecon(Lecon args){
 
     }
 }

@@ -1,5 +1,5 @@
-public class Professor extends Person {
-    String shortName;
+public class Professeur extends Personne {
+    private String abreviation;
 
     public String abreviation(){
         return "";
