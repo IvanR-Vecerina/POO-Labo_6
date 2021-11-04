@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+
 public class Group {
     int     number;
     int     trimester;
     String  Orientation;
+
+    ArrayList<Lesson> lessons;
 
     public String horaire(){
         return "";

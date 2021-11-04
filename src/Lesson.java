@@ -1,11 +1,12 @@
 public class Lesson {
-    String topic;
-    int weekDay;
-    int startingPeriod;
-    int duration;
-    String room;
+    int       weekDay;
+    int       startingPeriod;
+    int       duration;
+    String    topic;
+    String    room;
+    Professor professor;
 
-    public String horaire(Object args){
+    static public String horaire(Object args){
         return "";
     }
 }
