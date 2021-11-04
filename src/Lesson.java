@@ -4,4 +4,8 @@ public class Lesson {
     int startingPeriod;
     int duration;
     String room;
+
+    public String horaire(Object args){
+        return "";
+    }
 }
