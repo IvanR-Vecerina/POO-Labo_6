@@ -5,18 +5,24 @@ public class Groupe {
     private int trismestre;
     private String orientation;
 
-    ArrayList<Lecon> lecons;
+    ArrayList<Lecon> listeLecons = new ArrayList<>();
+
+    public Groupe(int numero, int trismestre, String orientation){
+        this.numero = numero;
+        this.trismestre = trismestre;
+        this.orientation = orientation;
+    }
 
     public String horaire(){
         return "";
     }
 
     public String nom(){
-        return "";
+        return orientation + trismestre + "-" + numero;
     }
 
     public int nombreEtudiants(){
-        return 0;
+        return listeLecons.size();
     }
 
     public void definirLecon(Lecon args){

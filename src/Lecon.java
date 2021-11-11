@@ -1,10 +1,10 @@
 public class Lecon {
-    int jourSemaine;
-    int periodeDebut;
-    int duree;
-    String matiere;
-    String salle;
-    Professeur professeur;
+    private int jourSemaine;
+    private int periodeDebut;
+    private int duree;
+    private String matiere;
+    private String salle;
+    private Professeur professeur;
 
     public Lecon(int jourSemaine, int periodeDebut, int duree, String matiere, String salle) {
         this.jourSemaine = jourSemaine;
