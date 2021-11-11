@@ -9,6 +9,6 @@ public class Etudiant extends Personne {
 
     @Override
     public String toString(){
-        return "";
+        return "Etud. " + super.toString() + " (#" + matricule + ")";
     }
 }

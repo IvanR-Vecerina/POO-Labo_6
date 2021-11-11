@@ -11,7 +11,7 @@ public class Professeur extends Personne {
     }
 
     public String abreviation(){
-        return "";
+        return "(" + abreviation + ")";
     }
 
     public String horaire(){
@@ -20,7 +20,7 @@ public class Professeur extends Personne {
 
     @Override
     public String toString(){
-        return "";
+        return "Prof. " + super.toString() + " " + abreviation();
     }
 
     public ArrayList<Lecon> getListeLecon(){
