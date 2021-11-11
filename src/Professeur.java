@@ -22,4 +22,8 @@ public class Professeur extends Personne {
     public String toString(){
         return "";
     }
+
+    public ArrayList<Lecon> getListeLecon(){
+        return listLecon;
+    }
 }
